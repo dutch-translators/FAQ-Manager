@@ -34,7 +34,7 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'BACKUP_LOCATION_NO_WRITE'	=> 'Kan geen back-up bestand aanmaken. Controleer de rechten van de map: store/faq_backup/ en elke map en bestand die erin staat.',
+	'BACKUP_LOCATION_NO_WRITE'	=> 'Kan geen back-up bestand aanmaken. Controleer de rechten van de map: store/faq_backup/ en elke map en bestand dat erin staat.',
 	'BAD_FAQ_FILE'				=> 'Het bestand dat je probeert te bewerken is geen FAQ-bestand',
 
 	'CREATE_CATEGORY'			=> 'Creëer categorie ',
@@ -58,9 +58,9 @@ $lang = array_merge($lang, array(
 	'LOG_FAQ_EDIT'				=> '<strong>FAQ item gewijzigd</strong>',
 	'LOG_FAQ_RESTORE'			=> '<strong>FAQ hersteld via een backup</strong>',
 
-	'NOT_ALLOWED_OUT_OF_DIR'	=> 'Je bent niet bevoegd om de bestanden uit de language directory te wijzigen.',
+	'NOT_ALLOWED_OUT_OF_DIR'	=> 'Je bent niet bevoegd om de bestanden uit de language map te wijzigen.',
 	'NO_FAQ_FILES'				=> 'Geen beschikbare FAQ bestanden.',
 	'NO_FAQ_VARS'				=> 'Er zijn geen FAQs in deze categorie.',
 
-	'VAR_NOT_EXIST'				=> 'The requested variable does not exist.',
+	'VAR_NOT_EXIST'				=> 'De opgevraagde variable bestaat niet.',
 ));
