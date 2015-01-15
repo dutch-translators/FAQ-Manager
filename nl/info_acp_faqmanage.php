@@ -34,7 +34,7 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'BACKUP_LOCATION_NO_WRITE'	=> 'Unable to create a backup file. Please check the directory permissions for store/faq_backup/ and every directory and file in it.',
+	'BACKUP_LOCATION_NO_WRITE'	=> 'Kan geen back-up bestand aanmaken. Controleer de rechten van de map: store/faq_backup/ en elke map en bestand die erin staat.',
 	'BAD_FAQ_FILE'				=> 'Het bestand dat je probeert te bewerken is geen FAQ-bestand',
 
 	'CREATE_CATEGORY'			=> 'Creëer categorie ',
@@ -46,7 +46,7 @@ $lang = array_merge($lang, array(
 	'FAQ_CAT_LIST'				=> 'Hier kan je bestaande categorieën zien en wijzigen.<br /><br /><strong>Note that a category named -- is the section break for the FAQ display page.</strong>',
 	'FAQ_EDIT_SUCCESS'			=> 'De FAQ is succesvol bijgewerkt.',
 	'FAQ_FILE_NOT_EXIST'		=> 'Het bestand dat je probeert te wijzigen bestaat niet.',
-	'FAQ_FILE_NO_WRITE'			=> 'Unable to update the file.  Please check the file permissions for the file you are attempting to edit.',
+	'FAQ_FILE_NO_WRITE'			=> 'Kan het bestand niet wijzigen. Controleer de bestandsrechten van het bestand dat je probeert te wijzigen.',
 	'FAQ_FILE_SELECT'			=> 'Selecteer het bestand dat je wilt wijzigen.',
 	'FAQ_MANAGER'				=> 'FAQ Beheerder',
 	'FAQ_MANAGE'				=> 'Beheer FAQs',
@@ -58,9 +58,9 @@ $lang = array_merge($lang, array(
 	'LOG_FAQ_EDIT'				=> '<strong>FAQ item gewijzigd</strong>',
 	'LOG_FAQ_RESTORE'			=> '<strong>FAQ hersteld via een backup</strong>',
 
-	'NOT_ALLOWED_OUT_OF_DIR'	=> 'You are not allowed to edit files out of the language directory.',
-	'NO_FAQ_FILES'				=> 'No Available FAQ Files.',
-	'NO_FAQ_VARS'				=> 'There are no FAQs in the file.',
+	'NOT_ALLOWED_OUT_OF_DIR'	=> 'Je bent niet bevoegd om de bestanden uit de language directory te wijzigen.',
+	'NO_FAQ_FILES'				=> 'Geen beschikbare FAQ bestanden.',
+	'NO_FAQ_VARS'				=> 'Er zijn geen FAQs in deze categorie.',
 
 	'VAR_NOT_EXIST'				=> 'The requested variable does not exist.',
 ));
