@@ -43,7 +43,7 @@ $lang = array_merge($lang, array(
 	'DELETE_CAT'				=> 'Verwijder categorie',
 	'DELETE_VAR'				=> 'Verwijder onderwerp',
 
-	'FAQ_CAT_LIST'				=> 'Hier kan je bestaande categorieën zien en wijzigen.<br /><br /><strong>Note that a category named -- is the section break for the FAQ display page.</strong>',
+	'FAQ_CAT_LIST'				=> 'Hier kan je bestaande categorieën zien en wijzigen.<br /><br /><strong>Let op: een categorie naam -- is een sectie-einde op de FAQ-pagina.</strong>',
 	'FAQ_EDIT_SUCCESS'			=> 'De FAQ is succesvol bijgewerkt.',
 	'FAQ_FILE_NOT_EXIST'		=> 'Het bestand dat je probeert te wijzigen bestaat niet.',
 	'FAQ_FILE_NO_WRITE'			=> 'Kan het bestand niet wijzigen. Controleer de bestandsrechten van het bestand dat je probeert te wijzigen.',
@@ -62,5 +62,5 @@ $lang = array_merge($lang, array(
 	'NO_FAQ_FILES'				=> 'Geen beschikbare FAQ bestanden.',
 	'NO_FAQ_VARS'				=> 'Er zijn geen FAQs in deze categorie.',
 
-	'VAR_NOT_EXIST'				=> 'De opgevraagde variable bestaat niet.',
+	'VAR_NOT_EXIST'				=> 'De opgevraagde variabel bestaat niet.',
 ));
