@@ -32,6 +32,10 @@ if (empty($lang) || !is_array($lang))
 // You do not need this where single placeholders are used, e.g. 'Message %d' is fine
 // equally where a string contains only two placeholders which are used to wrap text
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
+//
+// Some characters you may want to copy&paste:
+// ’ » “ ” …
+//
 
 $lang = array_merge($lang, array(
 	'BACKUP_LOCATION_NO_WRITE'	=> 'Kan geen back-up bestand aanmaken. Controleer de rechten van de map: store/faq_backup/ en elke map en bestand dat erin staat.',
@@ -42,14 +46,27 @@ $lang = array_merge($lang, array(
 
 	'DELETE_CAT'				=> 'Verwijder categorie',
 	'DELETE_VAR'				=> 'Verwijder onderwerp',
-
+	
+	'FAQ_ANSWER'				=> 'FAQ antwoord',
+	'FAQ_CAT_EDIT'				=> 'Hier kun je een FAQ antwoord bewerken.',
+	'FAQ_CAT_FAQ'				=> 'Hier kun je een onderwerp plaatsen in deze categorie.',
+	'FAQ_CAT_FILES'				=> 'Selecteer de FAQ bestanden die je wilt bewerken.',
 	'FAQ_CAT_LIST'				=> 'Hier kan je bestaande categorieën zien en wijzigen.<br /><br /><strong>Let op: een categorie naam -- is een sectie-einde op de FAQ-pagina.</strong>',
 	'FAQ_EDIT_SUCCESS'			=> 'De FAQ is succesvol bijgewerkt.',
+	'FAQ_CAT_TOPIC'				=> 'Hier kun je een FAQ onderwerp plaatsen.',
+	'FAQ_DELETE_SUCCESS'		=> 'De FAQ informatie is succesvol verwijerd.',
+	'FAQ_EDIT_SUCCESS'			=> 'De FAQ is succesvol gewijzigd.',
+	'FAQ_TOPIC_SUCCESS'			=> 'Het onderwerp is succesvol geplaatst.',
 	'FAQ_FILE_NOT_EXIST'		=> 'Het bestand dat je probeert te wijzigen bestaat niet.',
 	'FAQ_FILE_NO_WRITE'			=> 'Kan het bestand niet wijzigen. Controleer de bestandsrechten van het bestand dat je probeert te wijzigen.',
 	'FAQ_FILE_SELECT'			=> 'Selecteer het bestand dat je wilt wijzigen.',
+	'FAQ_LANGUAGE'				=> 'Taal',
+	'FAQ_LOCATION'				=> 'Locatie',
 	'FAQ_MANAGER'				=> 'FAQ Beheerder',
 	'FAQ_MANAGE'				=> 'Beheer FAQs',
+	'FAQ_NAME'					=> 'Naam',
+	'FAQ_QUESTION'				=> 'FAQ',
+	'FAQ_SETTINGS'				=> 'Maak/bewerk FAQ item',
 
 	'LOAD_BACKUP'				=> 'Backup laden',
 
@@ -61,6 +78,8 @@ $lang = array_merge($lang, array(
 	'NOT_ALLOWED_OUT_OF_DIR'	=> 'Je bent niet bevoegd om de bestanden uit de language map te wijzigen.',
 	'NO_FAQ_FILES'				=> 'Geen beschikbare FAQ bestanden.',
 	'NO_FAQ_VARS'				=> 'Er zijn geen FAQs in deze categorie.',
+	
+	'ON_TO_NEXT'				=> 'Ga naar de volgende stap',
 
 	'VAR_NOT_EXIST'				=> 'De opgevraagde variabel bestaat niet.',
 ));
