@@ -48,12 +48,14 @@ $lang = array_merge($lang, array(
 	'DELETE_VAR'				=> 'Verwijder onderwerp',
 	
 	'FAQ_ANSWER'				=> 'FAQ antwoord',
-	'FAQ_CAT_EDIT'				=> 'Hier kun je een FAQ antwoord bewerken.',
-	'FAQ_CAT_FAQ'				=> 'Hier kun je een onderwerp plaatsen in deze categorie.',
+	'FAQ_CAT_CAT'				=> 'Hier kan je een FAQ categorie bewerken.',
+	'FAQ_CAT_EDIT'				=> 'Hier kan je een FAQ antwoord bewerken.',
+	'FAQ_CAT_FAQ'				=> 'Hier kan je een onderwerp plaatsen in deze categorie.',
 	'FAQ_CAT_FILES'				=> 'Selecteer de FAQ bestanden die je wilt bewerken.',
 	'FAQ_CAT_LIST'				=> 'Hier kan je bestaande categorieën zien en wijzigen.<br /><br /><strong>Let op: een categorie naam -- is een sectie-einde op de FAQ-pagina.</strong>',
 	'FAQ_EDIT_SUCCESS'			=> 'De FAQ is succesvol bijgewerkt.',
-	'FAQ_CAT_TOPIC'				=> 'Hier kun je een FAQ onderwerp plaatsen.',
+	'FAQ_CAT_QUESTION'			=> 'Hier kan je de FAQs van de geselecteerde categorieën beheren.',
+	'FAQ_CAT_TOPIC'				=> 'Hier kan je een FAQ onderwerp plaatsen.',
 	'FAQ_DELETE_SUCCESS'		=> 'De FAQ informatie is succesvol verwijerd.',
 	'FAQ_EDIT_SUCCESS'			=> 'De FAQ is succesvol gewijzigd.',
 	'FAQ_TOPIC_SUCCESS'			=> 'Het onderwerp is succesvol geplaatst.',
@@ -66,7 +68,9 @@ $lang = array_merge($lang, array(
 	'FAQ_MANAGE'				=> 'Beheer FAQs',
 	'FAQ_NAME'					=> 'Naam',
 	'FAQ_QUESTION'				=> 'FAQ',
+	'FAQ_CAT_QUESTION'			=> 'FAQ categorie',
 	'FAQ_SETTINGS'				=> 'Maak/bewerk FAQ item',
+	'FAQ_CAT_SETTINGS'			=> 'Wijzig FAQ categorie',
 
 	'LOAD_BACKUP'				=> 'Backup laden',
 
